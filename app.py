@@ -6,7 +6,7 @@ from newsapi import NewsApiClient
 app = Flask(__name__)
 
 # Init news api 
-newsapi = NewsApiClient(api_key='61cb587f85604ee6b51a99fff53ed957')
+newsapi = NewsApiClient(api_key='REPLACE_WITH_YOUR_NEWSAPI')
 
 # helper function to filter out articles from "removed.com"
 def exclude_domains(articles, excluded_domains):
